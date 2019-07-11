@@ -1,0 +1,16 @@
+.nav-bar {
+    display: table-cell;
+    width: 99%;
+    vertical-align: middle;
+    text-align: right;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-bar-list {
+    text-align: left;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 0;
+    margin: 0 -20px;
+}
