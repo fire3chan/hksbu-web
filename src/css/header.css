@@ -1,16 +1,39 @@
 .nav-bar {
-    display: table-cell;
-    width: 99%;
-    vertical-align: middle;
-    text-align: right;
-    position: relative;
-    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.nav-bar-list {
-    text-align: left;
-    white-space: nowrap;
-    display: inline-block;
-    font-size: 0;
-    margin: 0 -20px;
+.nav-bar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-item {
+    padding: 14px 16px;
+}
+  
+.nav-bar-ul-item {
+    float: left;
+}
+  
+.nav-bar-ul-item .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav-bar-ul-item .nav-link:hover {
+    color: #00ece2;
+}
+
+.mobile-nav-bar {
+
+}
+.header-list-icon {
+    display: block;
+
 }
