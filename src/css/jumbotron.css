@@ -1,0 +1,22 @@
+.intro-jumbotron-img {
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.intro-jumbotron {
+    position: relative;
+    display: inline-block;
+}
+
+.jumbotron-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+}
