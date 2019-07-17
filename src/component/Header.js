@@ -23,7 +23,7 @@ class Header extends React.Component {
                 <a className="nav-link" href="#Home">Home</a>
               </li>
               <li className="nav-bar-ul-item">
-                <a className="nav-link" href="#Mission">Mission</a>
+                <a className="nav-link" href="#AboutUs">About Us</a>
               </li>
               <li className="nav-bar-ul-item">
                 <a className="nav-link" href="#RoadMap">Road Map</a>
@@ -48,7 +48,7 @@ class Header extends React.Component {
                 <a className="mobile-nav-link" href="#Home">Home</a>
               </li>
               <li className="mobile-nav-bar-ul-item">
-                <a className="mobile-nav-link" href="#Mission">Mission</a>
+                <a className="mobile-nav-link" href="#AboutUs">About Us</a>
               </li>
               <li className="mobile-nav-bar-ul-item">
                 <a className="mobile-nav-link" href="#RoadMap">Road Map</a>

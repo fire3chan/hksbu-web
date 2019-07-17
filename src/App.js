@@ -4,7 +4,7 @@ import Header from './component/Header';
 import Jumbotron from './component/Jumbotron';
 import AboutUs from './component/AboutUs';
 import RoadMap from './component/RoadMap';
-import ContactUs from './component/ContactUs';
+import JoinUs from './component/JoinUs';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class App extends React.Component {
         <Jumbotron></Jumbotron>
         <AboutUs></AboutUs>
         <RoadMap></RoadMap>
-        <ContactUs></ContactUs>
+        <JoinUs></JoinUs>
       </div>
     );
   }
