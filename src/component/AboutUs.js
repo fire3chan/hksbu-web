@@ -7,11 +7,11 @@ class AboutUs extends React.Component {
         return (
             <div className="about-us container">
                 <div className="row about-title-row">
-                    <div className="col-6">
+                    <div className="col-12 col-md-6">
                         <div className="about-title">About</div>
                         <div className="about-title-caption">Why choosing Crypton?</div>
                     </div>
-                    <div className="col-6 about-title-side">
+                    <div className="col-12 col-md-6 about-title-side">
                         Automatic matching of buyers &amp; sellers via unique artificial intelligence approach.
                     </div>
                 </div>

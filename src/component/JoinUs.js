@@ -7,8 +7,8 @@ class JoinUs extends React.Component {
         return (
             <div className="join-us container">
                 <h2>Join Us!</h2>
-                <div className="row">
-                    <div className="col-4">
+                <div className="row join-us-row">
+                    <div className="col-11 col-md-4 join-us-input-group">
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
                                 <span className="input-group-text" id="basic-addon3">NAME</span>
@@ -16,7 +16,7 @@ class JoinUs extends React.Component {
                             <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-11 col-md-4 join-us-input-group">
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
                                 <span className="input-group-text" id="basic-addon3">EMAIL</span>
@@ -24,7 +24,7 @@ class JoinUs extends React.Component {
                             <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-11 col-md-4 join-us-input-group">
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
                                 <span className="input-group-text" id="basic-addon3">NAME</span>
@@ -35,7 +35,7 @@ class JoinUs extends React.Component {
                 </div>
                 <div><button type="button" class="btn btn-secondary">Submit</button></div>
 
-                
+
             </div>
 
 

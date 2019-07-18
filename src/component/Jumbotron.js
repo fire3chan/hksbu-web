@@ -10,7 +10,6 @@ class Jumbotron extends React.Component {
                     <img className="intro-jumbotron-img" src={bg} alt="" />
                     <div className="jumbotron-caption">
                         <div>Englighten Your Future</div>
-                        <div>Say Hello to the world's first scalable, decentralized blockchain cloud network. Future in the making. </div>
                     </div>
                 </div>
             </div>

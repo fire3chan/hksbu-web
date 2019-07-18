@@ -1,3 +1,10 @@
 .join-us {
     padding: 4em 0;
 }
+
+.join-us-input-group {
+    padding: 1em;
+}
+.join-us-row {
+    margin: 0;
+}
