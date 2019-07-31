@@ -2,22 +2,27 @@
     "roadmapItem": [
         {
             "title": "Gather",
-            "milestone-date": "2019-06-11",
+            "milestoneDate": "2019-06-11",
             "description": "Gather together"
         },
         {
             "title": "1st Course",
-            "milestone-date": "2019-07-25",
+            "milestoneDate": "2019-07-25",
             "description": "Hello Blockchain"
         },
         {
             "title": "2nd Course",
-            "milestone-date": "2019-08-01",
+            "milestoneDate": "2019-08-01",
             "description": "???"
         },
         {
             "title": "3rd Course",
-            "milestone-date": "2019-08-03",
+            "milestoneDate": "2019-08-03",
+            "description": "???"
+        },
+        {
+            "title": "4th Course",
+            "milestoneDate": "2019-08-10",
             "description": "???"
         }
     ]
