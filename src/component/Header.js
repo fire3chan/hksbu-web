@@ -15,7 +15,7 @@ class Header extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="site-title col-6 col-md-3 header-item">hksbu</div>
+          <div className="site-title col-6 col-md-3 header-item">HKSBU</div>
 
           <nav className="nav-bar col-md-9 d-none d-md-block">
             <ul className="nav-bar-ul">

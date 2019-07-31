@@ -33,7 +33,7 @@ class JoinUs extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div><button type="button" class="btn btn-secondary">Submit</button></div>
+                <div><button type="button" className="btn btn-secondary">Submit</button></div>
 
 
             </div>
