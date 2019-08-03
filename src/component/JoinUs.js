@@ -6,7 +6,7 @@ class JoinUs extends React.Component {
     render() {
         return (
             <div className="join-us container">
-                <h2>Join Us!</h2>
+                <h2>We need you. Join Us Now!</h2>
                 <div className="row join-us-row">
                     <div className="col-11 col-md-4 join-us-input-group">
                         <div className="input-group mb-3">
