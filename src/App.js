@@ -26,14 +26,7 @@ class App extends React.Component {
   componentDidMount() {
     document.title = "HKSBU"
   }
-  // var Handler = React.createClass({
-  //   componentDidMount: function() {
-  //     someStore.fetchStuff(this.params.id, function(data) {
-  //       this.setState({data: data});
-  //       document.title = "Amazing Page | " + data.name;
-  //     }.bind(this));
-  //   }
-  // });
+
 }
 
 
