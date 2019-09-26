@@ -24,7 +24,7 @@ class App extends React.Component {
     );
   }
   componentDidMount() {
-    document.title = "HKSBU"
+    document.title = "HKSBU";
   }
 
 }
