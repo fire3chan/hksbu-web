@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import '../css/header.css';
+import icon from '../img/sbu logo.png'
 
 class Header extends React.Component {
   openNavList() {
@@ -15,7 +16,9 @@ class Header extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="site-title col-6 col-md-3 header-item">HKSBU</div>
+          <div className="site-title col-6 col-md-3 header-item"><a href="/">
+            <img src={icon} alt="icon of organization"></img>
+          </a></div>
 
           <nav className="nav-bar col-md-9 d-none d-md-block">
             <ul className="nav-bar-ul">
