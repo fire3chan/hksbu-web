@@ -27,7 +27,7 @@ class JoinUs extends React.Component {
                     <div className="col-11 col-md-4 join-us-input-group">
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
-                                <span className="input-group-text" id="basic-addon3">NAME</span>
+                                <span className="input-group-text" id="basic-addon3">MESSAGE</span>
                             </div>
                             <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
                         </div>
