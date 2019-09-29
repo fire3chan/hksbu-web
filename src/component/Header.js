@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import '../css/header.css';
+import logo from '../img/hksbu logo.png';
+import fbIcon from '../img/facebook-icon.png';
 
 class Header extends React.Component {
   openNavList() {
@@ -16,11 +18,13 @@ class Header extends React.Component {
       <header className="header sticky-top">
         <div className="container">
           <div className="row">
-            <div className="site-title col-6 col-md-3 header-item"><a href="/">
-              HKSBU
-          </a></div>
+            <div className="site-title col-6 col-md-3 header-item">
+              <a href="/">
+                <img className="header-logo" src={logo} alt="The logo of HK Student Blockchain Union" />
+              </a>
+            </div>
 
-            <nav className="nav-bar col-md-9 d-none d-md-block">
+            <nav className="nav-bar col-md-9 d-none d-md-flex">
               <ul className="nav-bar-ul">
                 <li className="nav-bar-ul-item active">
                   <a className="nav-link" href="#Home">Home</a>
@@ -33,6 +37,9 @@ class Header extends React.Component {
                 </li>
                 <li className="nav-bar-ul-item">
                   <a className="nav-link" href="#JoinUs">Join us</a>
+                </li>
+                <li className="nav-bar-ul-item">
+                  <a className="nav-link" href="#FB"><img className="fb-logo" src={fbIcon} /></a>
                 </li>
               </ul>
             </nav>

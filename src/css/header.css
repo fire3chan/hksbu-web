@@ -6,6 +6,19 @@
     padding: 14px 16px;
 }
 
+.header-logo {
+  width: 7em;
+}
+
+.nav-bar {
+  justify-content: end;
+  align-items: center;
+}
+
+.fb-logo {
+  width: 2em;
+}
+
 .nav-bar-ul {
     list-style-type: none;
     margin: 0;
