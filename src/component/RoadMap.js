@@ -9,6 +9,7 @@ class RoadMap extends React.Component {
     render() {
         return (
             <div className="road-map">
+                <a name="RoadMap"></a>
                 <div className="road-map-title">
                     Our Road Map
                 </div>
