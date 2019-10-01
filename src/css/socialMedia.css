@@ -1,0 +1,29 @@
+.social-media-link-group {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-link-group .list-group-item {
+    background: none;
+    border: none;
+}
+
+.social-media-icon-link {
+    display: inline-block;
+    font-size: 2em;
+    color: white;
+}
+
+.social-media-icon-link[data-link-type="Facebook"]:hover {
+    color: #5786EA;
+}
+.social-media-icon-link[data-link-type="Instagram"]:hover {
+    color: #e05ce0;
+}
+.social-media-icon-link[data-link-type="Youtube"]:hover {
+    color: #ff0000;
+}
+.social-media-icon-link[data-link-type="Email"]:hover {
+    color: #4ac1fb;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../css/header.css';
-import logo from '../img/hksbu logo.png';
-import fbIcon from '../img/facebook-icon.png';
+import logo from '../img/hksbu logo-white.png';
+import SocialMedia from './SocialMedia.js';
 
 class Header extends React.Component {
   openNavList() {
@@ -19,7 +19,7 @@ class Header extends React.Component {
         <div className="container">
           <div className="row">
             <div className="site-title col-6 col-md-3 header-item">
-              <a href="/">
+              <a href="/" className="d-flex">
                 <img className="header-logo" src={logo} alt="The logo of HK Student Blockchain Union" />
               </a>
             </div>
@@ -38,14 +38,15 @@ class Header extends React.Component {
                 <li className="nav-bar-ul-item">
                   <a className="nav-link" href="#JoinUs">Join us</a>
                 </li>
-                <li className="nav-bar-ul-item">
-                  <a className="nav-link" href="#FB"><img className="fb-logo" src={fbIcon} /></a>
-                </li>
               </ul>
             </nav>
-            <div className="mobile-nav-bar col-6 d-block d-md-none">
-              <FontAwesomeIcon onClick={() => this.openNavList()}
-                className="header-list-icon" icon={faBars} />
+            <div className="mobile-nav-bar col-6 d-flex d-md-none">
+              <ul className="nav-bar-ul">
+                <li className="mobile-nav-ul-item active">
+                  <FontAwesomeIcon onClick={() => this.openNavList()}
+                    className="header-list-icon" icon={faBars} />
+                </li>
+              </ul>
             </div>
 
 
@@ -54,6 +55,7 @@ class Header extends React.Component {
                 onClick={() => this.closeNav()}>&times;</a>
 
               <ul className="mobile-overlay-nav-content">
+                <li><SocialMedia /></li>
                 <li className="mobile-nav-bar-ul-item active">
                   <a className="mobile-nav-link" href="#Home">Home</a>
                 </li>
@@ -68,10 +70,7 @@ class Header extends React.Component {
                 </li>
               </ul>
             </div>
-            {/* <form className="form-inline my-2 my-lg-0 col-12 col-lg-3">
-      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> */}
+
           </div>
 
         </div>
