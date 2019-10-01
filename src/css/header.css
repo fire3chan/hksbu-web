@@ -40,11 +40,21 @@
     color: #00ece2;
 }
 
+.mobile-nav-bar {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mobile-nav-ul-item {
+  padding: 0 0 0 1em;
+}
+
 .header-list-icon {
     display: block;
     font-size: 1.8em;
     margin: 4% 0;
     float: right;
+    cursor: pointer;
 }
 
 .overlay-nav {  

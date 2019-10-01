@@ -21,8 +21,8 @@ class AboutUs extends React.Component {
                         <div className="col-12">
                             <div className="about-desc">
                                 <ul>
-                                    {about.description.map((content) =>
-                                        <li>
+                                    {about.description.map((content, key) =>
+                                        <li key={key}>
                                             {content}
                                         </li>
                                     )}
