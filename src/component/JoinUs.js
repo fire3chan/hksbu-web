@@ -11,6 +11,7 @@ class JoinUs extends React.Component {
     render() {
         return (
             <div className="join-us">
+                <a name="JoinUs"></a>
                 <h2 className="join-us-title">We need you. Join Us Now!</h2>
                 <div className="row join-us-row">
                     <div className="col-12 col-md-4 join-us-input-group">

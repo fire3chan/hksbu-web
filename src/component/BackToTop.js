@@ -1,25 +1,26 @@
 import React from 'react';
 import '../css/BackToTop.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons';
 
 class BackToTop extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            mybutton: null
+            toTopBtn: null
         };
     };
     componentDidMount() {
         window.onscroll = this.scrollFunction.bind(this);
-        this.state.mybutton = document.getElementById("back-button");
+        this.setState({ toTopBtn: document.getElementById("to-top-btn") });
     }
 
 
     scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            this.state.mybutton.style.display = "block";
+            this.state.toTopBtn.style.display = "block";
         } else {
-            this.state.mybutton.style.display = "none";
+            this.state.toTopBtn.style.display = "none";
         }
     }
 
@@ -29,7 +30,9 @@ class BackToTop extends React.Component {
     }
     render() {
         return (
-            <button onClick={this.topFunction} id="back-button" title="Go to top">Top</button>
+            <button onClick={this.topFunction} id="to-top-btn" title="Go to top">
+                <FontAwesomeIcon className="social-media-icon" icon={faLongArrowAltUp} />
+            </button>
 
 
         );

@@ -26,7 +26,7 @@ class Header extends React.Component {
 
             <nav className="nav-bar col-md-9 d-none d-md-flex">
               <ul className="nav-bar-ul">
-                <li className="nav-bar-ul-item active">
+                <li className="nav-bar-ul-item">
                   <a className="nav-link" href="#Home">Home</a>
                 </li>
                 <li className="nav-bar-ul-item">
@@ -56,17 +56,17 @@ class Header extends React.Component {
 
               <ul className="mobile-overlay-nav-content">
                 <li><SocialMedia /></li>
-                <li className="mobile-nav-bar-ul-item active">
-                  <a className="mobile-nav-link" href="#Home">Home</a>
+                <li className="mobile-nav-bar-ul-item">
+                  <a className="mobile-nav-link" href="#Home" onClick={() => this.closeNav()}>Home</a>
                 </li>
                 <li className="mobile-nav-bar-ul-item">
-                  <a className="mobile-nav-link" href="#AboutUs">About Us</a>
+                  <a className="mobile-nav-link" href="#AboutUs" onClick={() => this.closeNav()}>About Us</a>
                 </li>
                 <li className="mobile-nav-bar-ul-item">
-                  <a className="mobile-nav-link" href="#RoadMap">Road Map</a>
+                  <a className="mobile-nav-link" href="#RoadMap" onClick={() => this.closeNav()}>Road Map</a>
                 </li>
                 <li className="mobile-nav-bar-ul-item">
-                  <a className="mobile-nav-link" href="#JoinUs">Join us</a>
+                  <a className="mobile-nav-link" href="#JoinUs" onClick={() => this.closeNav()}>Join us</a>
                 </li>
               </ul>
             </div>

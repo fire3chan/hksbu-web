@@ -6,6 +6,7 @@ class Jumbotron extends React.Component {
     render() {
         return (
             <div>
+                <a name="Home"></a>
                 <div className="intro-jumbotron">
                     <img className="intro-jumbotron-img" src={bg} alt="" />
                     <div className="jumbotron-caption">
