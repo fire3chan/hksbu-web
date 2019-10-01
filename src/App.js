@@ -5,6 +5,7 @@ import Jumbotron from './component/Jumbotron';
 import AboutUs from './component/AboutUs';
 import RoadMap from './component/RoadMap';
 import JoinUs from './component/JoinUs';
+import BackToTop from './component/BackToTop';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class App extends React.Component {
         <AboutUs></AboutUs>
         <RoadMap></RoadMap>
         <JoinUs></JoinUs>
+        <BackToTop ></BackToTop>
       </div>
     );
   }

@@ -51,8 +51,8 @@ class Header extends React.Component {
 
 
             <div id="mobile-overlay-nav" className="overlay-nav">
-              <a href="javascript:void(0)" className="closebtn"
-                onClick={() => this.closeNav()}>&times;</a>
+              <span className="closebtn"
+                onClick={() => this.closeNav()}>&times;</span>
 
               <ul className="mobile-overlay-nav-content">
                 <li><SocialMedia /></li>
