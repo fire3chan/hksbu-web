@@ -8,9 +8,6 @@
   "scripts": {
     "start": "node src/google_api/index.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "engines": {
     "node": "10.x"
   }

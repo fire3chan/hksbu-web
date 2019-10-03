@@ -17,11 +17,12 @@ let email = "";
 let message = "";
 
 const srv = nsHttp.createServer(function (req, res) {
-    const pathname = nsUrl.parse(req.url).pathname;
-    const curr_url = new URL("http://localhost:3000" + req.url);
-    const search_params = curr_url.searchParams;
+    const nsurlObj = nsUrl.parse(req.url);
+    const pathname = nsurlObj.pathname;
+    const urlObj = new URL((process.env.NODE_ENV ? "https://hksbu-googlesheet.herokuapp.com" : "http://localhost:3000") + req.url);
+    const params = urlObj.searchParams;
 
-    console.log(curr_url);
+    console.log(params);
     // check URL to send the right response
     switch (pathname) {
         case "/favicon.ico":
@@ -33,9 +34,9 @@ const srv = nsHttp.createServer(function (req, res) {
         //     break;
 
         case "/sendData":
-            name = search_params.get('name');
-            email = search_params.get('email');;
-            message = search_params.get('message');;
+            name = params.get("name");
+            email = params.get("email");
+            message = params.get("message");
 
             HTTP_SendOK(res, "");
             break;
@@ -78,9 +79,7 @@ function HTTP_SendNotFound(res) {
     res.end();
 }
 
-srv.listen(process.env.PORT || 8080);
-// srv.listen(8080);
-
+srv.listen(process.env.NODE_ENV ? process.env.PORT : 8080);
 
 /**
  * Create an OAuth2 client with the given credentials, and then execute the
