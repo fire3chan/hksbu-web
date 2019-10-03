@@ -33,7 +33,6 @@ const srv = nsHttp.createServer(function (req, res) {
         //     break;
 
         case "/sendData":
-
             name = search_params.get('name');
             email = search_params.get('email');;
             message = search_params.get('message');;
