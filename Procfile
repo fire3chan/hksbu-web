@@ -1,1 +1,1 @@
-web: node src/google_api/index.js
+web: node src/index.js
