@@ -15,7 +15,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className="header sticky-top">
+      <header className="header">
         <div className="container">
           <div className="row">
             <div className="site-title col-6 col-md-3 header-item">

@@ -13,34 +13,38 @@ class JoinUs extends React.Component {
             <div className="join-us">
                 <a name="JoinUs"></a>
                 <h2 className="join-us-title">We need you. Join Us Now!</h2>
-                <div className="row join-us-row">
-                    <div className="col-12 col-md-4 join-us-input-group">
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text" id="basic-addon3">
-                                    <FontAwesomeIcon className="join-us-icon" icon={faUser} />NAME</span>
+                <form action="https://hksbu-googlesheet.herokuapp.com/sendData" target="_blank">
+                    <div className="row join-us-row">
+                        <div className="col-12 col-md-4 join-us-input-group">
+                            <div className="input-group mb-3">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text" id="basic-addon3">
+                                        <FontAwesomeIcon className="join-us-icon" icon={faUser} />NAME</span>
+                                </div>
+                                <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" name="name" />
                             </div>
-                            <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
+                        </div>
+                        <div className="col-12 col-md-4 join-us-input-group">
+                            <div className="input-group mb-3">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text" id="basic-addon3"><FontAwesomeIcon className="join-us-icon" icon={faEnvelope} />EMAIL</span>
+                                </div>
+                                <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" name="email" />
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4 join-us-input-group">
+                            <div className="input-group mb-3">
+                                <div className="input-group-prepend">
+                                    <span className="input-group-text" id="basic-addon3"><FontAwesomeIcon className="join-us-icon" icon={faCommentDots} />MESSAGE</span>
+                                </div>
+                                <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" name="message" value="I want to join you!" />
+                            </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 join-us-input-group">
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text" id="basic-addon3"><FontAwesomeIcon className="join-us-icon" icon={faEnvelope} />EMAIL</span>
-                            </div>
-                            <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
-                        </div>
+                    <div>
+                        <button type="submit" className="btn btn-secondary">Submit</button>
                     </div>
-                    <div className="col-12 col-md-4 join-us-input-group">
-                        <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text" id="basic-addon3"><FontAwesomeIcon className="join-us-icon" icon={faCommentDots} />MESSAGE</span>
-                            </div>
-                            <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
-                        </div>
-                    </div>
-                </div>
-                <div><button type="button" className="btn btn-secondary">Submit</button></div>
+                </form>
                 <ContactUs />
 
             </div>
