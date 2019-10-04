@@ -4,6 +4,8 @@
 
 .header-item {
     padding: 14px 16px;
+    display: flex;
+    justify-content: start;
 }
 
 .header-logo {

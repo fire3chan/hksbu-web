@@ -37,7 +37,7 @@ class JoinUs extends React.Component {
                                 <div className="input-group-prepend">
                                     <span className="input-group-text" id="basic-addon3"><FontAwesomeIcon className="join-us-icon" icon={faCommentDots} />MESSAGE</span>
                                 </div>
-                                <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" name="message" value="I want to join you!" />
+                                <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" name="message" defaultValue="I want to join you!" />
                             </div>
                         </div>
                     </div>

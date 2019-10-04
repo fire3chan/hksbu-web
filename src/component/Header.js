@@ -15,11 +15,11 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className="header">
+      <header className="header sticky-top">
         <div className="container">
           <div className="row">
             <div className="site-title col-6 col-md-3 header-item">
-              <a href="/" className="d-flex">
+              <a href="/">
                 <img className="header-logo" src={logo} alt="The logo of HK Student Blockchain Union" />
               </a>
             </div>
