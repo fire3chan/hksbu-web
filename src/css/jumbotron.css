@@ -7,6 +7,7 @@
 .intro-jumbotron {
     position: relative;
     display: inline-block;
+    margin-top: 7em;
 }
 
 .jumbotron-caption {
