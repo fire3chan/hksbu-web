@@ -1,5 +1,9 @@
 .header {
   background-color: rgba(26,11,83,0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .header-item {
